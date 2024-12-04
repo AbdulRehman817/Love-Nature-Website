@@ -5,7 +5,7 @@ import Services from "./Services/Services";
 import Section from "./Section3/Section";
 import Section4 from "./Section4/Section4";
 import Lastsection from "./lastSection/Lastsection";
-import Footer from "./Footer/Footer";
+
 
 const Home = () => {
   return (
@@ -16,7 +16,7 @@ const Home = () => {
       <Section />
       <Section4 />
       <Lastsection />
-      <Footer />
+
     </>
   );
 };
