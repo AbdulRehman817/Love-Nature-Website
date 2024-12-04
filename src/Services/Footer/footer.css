@@ -1,0 +1,70 @@
+/* Root Container */
+.why-love-nature-section {
+  background-color: #f5f7f2;
+  padding: 4rem 2rem;
+  font-family: "Arial", sans-serif;
+  color: #4a6148;
+}
+
+/* Text Container */
+.text-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.heading {
+  font-size: 2.5rem;
+  color: #3c5233;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #4a6148;
+  margin-bottom: 1rem;
+}
+
+/* Badge Container */
+.badge-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+/* Individual Badge */
+.badge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.badge:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.icon {
+  font-size: 2rem;
+  color: #3c5233;
+  margin-bottom: 0.5rem;
+}
+
+.badge-text {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #4a6148;
+}

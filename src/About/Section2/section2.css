@@ -1,0 +1,27 @@
+.mission-values-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  /* padding: 20px; */
+  padding-top: 60px;
+  background-color: #f9f9f9; /* Optional background */
+  font-family: Arial, sans-serif;
+  color: #5d735d; /* Neutral green color for text */
+}
+
+.mission-values-section {
+  max-width: 45%;
+  text-align: center;
+}
+
+.mission-values-section h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #536942; /* Header color */
+}
+
+.mission-values-section p {
+  font-size: 1em;
+  line-height: 1.5;
+  color: #666;
+}
