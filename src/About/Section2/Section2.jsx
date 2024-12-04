@@ -12,8 +12,9 @@ const Section2 = () => {
             <br />
             beauty and balance of the natural world.
           </p>
-          <div className="h-[90%] w-[80% ] align-middle ml-28">
+          <div className="h-[90%]  align-middle ml-28">
             <img
+              className="w-[90% ]"
               src="https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/contact-hero.jpg"
               alt=""
             />
